@@ -1,0 +1,5 @@
+﻿CaliberMPGHUpdate.obj : error LNK2019: unresolved external symbol "public: __thiscall ProcMem::ProcMem(void)" (??0ProcMem@@QAE@XZ) referenced in function "void __cdecl `dynamic initializer for 'Mem''(void)" (??__EMem@@YAXXZ)
+CaliberMPGHUpdate.obj : error LNK2019: unresolved external symbol "public: __thiscall ProcMem::~ProcMem(void)" (??1ProcMem@@QAE@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'Mem''(void)" (??__FMem@@YAXXZ)
+CaliberMPGHUpdate.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall ProcMem::Process(char *)" (?Process@ProcMem@@UAEXPAD@Z) referenced in function _main
+CaliberMPGHUpdate.obj : error LNK2019: unresolved external symbol "public: virtual unsigned long __thiscall ProcMem::Module(char *)" (?Module@ProcMem@@UAEKPAD@Z) referenced in function _main
+D:\Coding Projects\CaliberMPGH\CaliberMPGHUpdate\Debug\CaliberMPGHUpdate.exe : fatal error LNK1120: 4 unresolved externals
