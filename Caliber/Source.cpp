@@ -8,10 +8,16 @@ using namespace std;
 
 ProcMem Caliber; // Shortcut
 
-int main()
-{
+void caliber_check() {
+	cout << "Checking for csgo.exe..." << endl;
 	Caliber.Process("csgo.exe"); // Choosing the process
 	DWORD ClientDLL = Caliber.Module("client.dll");
+}
+
+int main()
+{
+	SetConsoleTitle("Caliber for CounterStrike : Global Offensive");
+	caliber_check();
 	// return 0;
 }
 
